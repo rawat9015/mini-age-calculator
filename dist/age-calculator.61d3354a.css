@@ -433,8 +433,16 @@
     display: table;
   }
 
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+
   .w-10\/12 {
     width: 83.3333%;
+  }
+
+  .border-collapse {
+    border-collapse: collapse;
   }
 
   .transform {
@@ -527,6 +535,10 @@
 
   .italic {
     font-style: italic;
+  }
+
+  .underline {
+    text-decoration-line: underline;
   }
 
   .shadow {
